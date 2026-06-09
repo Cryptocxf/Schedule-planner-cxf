@@ -1,0 +1,24 @@
+﻿{
+  "name": "schedule-planner-cxf",
+  "version": "1.0.3",
+  "openclaw": {
+    "skill": true,
+    "description": "全能出行管家技能 - 行程规划 + 机票酒店预订 + 行程单生成"
+  },
+  "main": "scripts/generate-trip-page.js",
+  "scripts": {
+    "generate-trip": "node scripts/generate-trip-page.js"
+  },
+  "keywords": [
+    "travel",
+    "trip-planning",
+    "flight",
+    "hotel",
+    "qrcode"
+  ],
+  "author": "cryptocxf",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
